@@ -1,7 +1,8 @@
 # PHPPayloadRearrange
 Rearranges payload
 
-
+```php
+<?php
 $data = [
   'name' => [
     'livinus',
@@ -23,7 +24,7 @@ arrange($data);
 
 
 
-
+/*
 Array
 (
     [0] => Array
@@ -55,3 +56,5 @@ Array
         )
 
 )
+*/
+```
